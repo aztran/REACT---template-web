@@ -1,0 +1,49 @@
+.steppers {
+  background-color: #f3f4f6;
+  // height: 100px;
+  // display: flex;
+  // justify-content: flex-end;
+  // align-items: center;
+  // align-content: center;
+
+  .container-tes {
+    // margin: 0 auto;
+    width: 1200px;
+  }
+
+}
+
+.stepper {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    width: 70% !important;
+
+    .ant-steps-item-process .ant-steps-item-icon {
+      background: #1fc4f4;
+      border: none;
+    }
+
+    .ant-steps-item-wait .ant-steps-item-icon {
+      background-color: #AAAAAA;
+      border: none;
+    
+      & > .ant-steps-icon {
+        color: white;
+      }
+      // border-color: rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &__btn {
+    text-transform:  uppercase;
+    padding: 10px;
+    background-color: #1fc4f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
